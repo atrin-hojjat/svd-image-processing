@@ -1,0 +1,19 @@
+\edef \SavedTocDepth {\the \value {tocdepth}}
+\setcounter {tocdepth}{-10}
+\contentsline {chapter}{فهرست تصاویر}{ج}{section*.1}%
+\contentsline {chapter}{فهرست جداول}{د}{section*.2}%
+\par عنوان\hfill صفحه \par 
+\setcounter {tocdepth}{\SavedTocDepth }
+\contentsline {chapter}{\numberline {1}بررسی روش \lr {SVD}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1-1}مقدمه}{2}{section.1.1}%
+\contentsline {section}{\numberline {1-2}روش \lr {SVD}}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {2}\lr {Image Compression}}{3}{chapter.2}%
+\contentsline {section}{\numberline {2-1}شهود روش \lr {SVD} برای کاهش سایز}{4}{section.2.1}%
+\contentsline {section}{\numberline {2-2}پیاده سازی روش}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2-2-1}پیاده سازی روی تصاویر سیاه و سفید}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2-2-2}بررسی خطا روش}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2-2-3}پیاده سازی با تصاویر رنگی}{18}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}نتیجه گیری}{35}{chapter.3}%
+\contentsline {chapter}{کتاب‌نامه}{37}{appendix*.3}%
+\contentsline {chapter}{پیوست}{38}{appendix*.4}%
+\contentsfinish 
