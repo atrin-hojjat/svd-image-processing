@@ -1,14 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.3.28)  29 JUN 2024 12:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.3.28)  29 JUN 2024 12:33
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/atrin/Documents/University/NumericalAnalysis/project/Report/AUTthesis.tex
-(/home/atrin/Documents/University/NumericalAnalysis/project/Report/AUTthesis.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
-(./AUTthesis.cls
-Document Class: AUTthesis 08/04/2012 v0.4 Persian thesis document class in XeLaTeX for University of Amirkabir projects/theses/dissertations
+**\nonstopmode\input AUTthesis.tex
+(./AUTthesis.tex (./AUTthesis.cls
+Document Class: AUTthesis 08/04/2012 v0.4 Persian thesis document class in XeLa
+TeX for University of Amirkabir projects/theses/dissertations
 (/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk12.clo
@@ -26,40 +23,58 @@ File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+))
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks17
 \pgfutil@tempdima=\dimen141
 \pgfutil@tempdimb=\dimen142
-) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box51
-) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
- (/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen143
 \Gin@req@width=\dimen144
-) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+)
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
- (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.te
+x
 \pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen145
@@ -86,27 +101,35 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-xetex.def
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
 File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
 \pgfsys@objnum=\count198
-))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count199
 \pgfsyssoftpath@bigbuffer@items=\count266
-) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
- (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
@@ -115,18 +138,36 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen155
 \pgfmath@count=\count267
 \pgfmath@box=\box52
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
 \pgfmath@stack@operation=\toks27
-) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count268
-)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+))
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen156
 \pgf@picmaxx=\dimen157
@@ -142,7 +183,8 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen167
 \pgf@zx=\dimen168
 \pgf@zy=\dimen169
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen170
 \pgf@path@lasty=\dimen171
@@ -150,61 +192,81 @@ File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen172
 \pgf@shorten@start@additional=\dimen173
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
 \pgf@picture@serial@count=\count269
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen174
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen175
 \pgf@pt@y=\dimen176
 \pgf@pt@temp=\dimen177
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen178
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen179
 \pgf@sys@shading@range@num=\count270
 \pgf@shadingcount=\count271
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box56
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box57
-) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen180
 \pgf@nodesepend=\dimen181
-) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty
-Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivier Verdier <olivier.verdier@gmail.com>
- (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+))
+(/usr/share/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty
+Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivi
+er Verdier <olivier.verdier@gmail.com>
+
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count272
 \lst@gtempboxa=\box58
 \lst@token=\toks28
@@ -217,18 +279,22 @@ Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivie
 \lst@newlines=\count276
 \lst@lineno=\count277
 \lst@maxwidth=\dimen185
- (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
+
+(/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
-) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 \c@lstnumber=\count278
 \lst@skipnumbers=\count279
 \lst@framebox=\box59
-) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/02/21 1.10 listings configuration
 ))
 Package: listings 2024/02/21 1.10 (Carsten Heinz)
-) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip50
 \enit@outerparindent=\dimen186
@@ -236,7 +302,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box60
 \enit@count@id=\count280
 \enitdp@description=\count281
-) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks30
 \thm@bodyfont=\toks31
@@ -247,11 +314,14 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip52
 \thm@headsep=\skip53
 \dth@everypar=\toks35
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) (./commands.tex (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (./commands.tex
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks36
 \symAMSa=\mathgroup4
@@ -259,21 +329,25 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks37
 \ex@=\dimen187
-)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen188
-) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count282
@@ -323,11 +397,14 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count294
@@ -342,12 +419,15 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen258
 \Gm@layoutvoffset=\dimen259
 \Gm@dimlist=\toks42
-) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
+)
+(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
+)
+(/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2023/10/27 v2.16 TOC entries
 \ttl@leftsep=\dimen260
-) (/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
+)
+(/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip57
@@ -386,52 +466,70 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip88
 \cfttabindent=\skip89
 \cfttabnumwidth=\skip90
-) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
- (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count299
-) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count300
 )
 \@linkdim=\dimen261
 \Hy@linkcounter=\count301
 \Hy@pagecounter=\count302
- (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
-) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count303
- (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
@@ -443,16 +541,20 @@ Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count304
- (/usr/share/texmf-dist/tex/latex/url/url.sty
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen262
- (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count305
 \Field@Width=\dimen263
@@ -464,7 +566,8 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
- (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -473,28 +576,37 @@ package with kernel methods
 \c@Hfootnote=\count308
 )
 Package hyperref Info: Driver (autodetected): hxetex.
- (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
- (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \pdfm@box=\box63
 \c@Hy@AnnotLevel=\count309
 \HyField@AnnotCount=\count310
 \Fld@listcount=\count311
 \c@bookmark@seq@number=\count312
- (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+
+(/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
-) (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
 \Hy@SectionHShift=\skip91
-) (/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+)
+(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -509,10 +621,14 @@ LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
 Package cleveref Info: `listings' support loaded on input line 3131.
-Package cleveref Info: include cross-reference names in hyperlinks on input line 7836.
-Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
-) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7836.
+Package cleveref Info: include cross-reference names in hyperlinks on input lin
+e 7852.
+)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip92
 \f@nch@O@elh=\skip93
 \f@nch@O@erh=\skip94
@@ -522,7 +638,8 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip98
 \f@nch@O@olf=\skip99
 \f@nch@O@orf=\skip100
-) (/usr/share/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+)
+(/usr/share/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
@@ -531,7 +648,8 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (/usr/share/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+)
+(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count313
 \mult@box=\box64
@@ -600,7 +718,8 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \mult@nat@firstbox=\box108
 \colbreak@box=\box109
 \mc@col@check@num=\count322
-) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+)
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks43
 \verbatim@line=\toks44
@@ -612,7 +731,8 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 
 Writing index file AUTthesis.idx
 (/usr/share/texmf-dist/tex/latex/sectsty/sectsty.sty
-Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
 
 
 LaTeX Warning: Command \underbar  has changed.
@@ -623,10 +743,15 @@ LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
 ) (/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty
-Package: xepersian 2023/08/30 v25.0 (Release Women, Life, and Freedom) Persian typesetting in XeLaTeX
- (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: xepersian 2023/08/30 v25.0 (Release Women, Life, and Freedom) Persian 
+typesetting in XeLaTeX
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-02-20 L3 programming layer (loader) 
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
 \g__graphics_track_int=\count323
 \l__pdf_internal_box=\box110
@@ -637,8 +762,10 @@ File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
 Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
- (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTe
+X
 \l__fontspec_script_int=\count327
 \l__fontspec_language_int=\count328
 \l__fontspec_strnum_int=\count329
@@ -653,9 +780,12 @@ Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpa_dim=\dimen274
 \l__fontspec_tmpb_dim=\dimen275
 \l__fontspec_tmpc_dim=\dimen276
- (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
 \XePersian@i=\count338
 \XePersian@y=\count339
@@ -694,10 +824,14 @@ Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
 \XePersian@dn=\count372
 \XePersian@sn=\count373
 \XePersian@mminusone=\count374
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-mathdigitspec.sty
-Package: xepersian-mathdigitspec 2022/05/20 v1.2.0 Unicode Persian math digits in XeLaTeX
-) (/usr/share/texmf-dist/tex/xelatex/bidi/bidi.sty
-Package: bidi 2023/08/02 v39.8 (Release Donald Ervin Knuth) Bidirectional typesetting in plain TeX and LaTeX
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-mathdigitspec.sty
+Package: xepersian-mathdigitspec 2022/05/20 v1.2.0 Unicode Persian math digits 
+in XeLaTeX
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/bidi.sty
+Package: bidi 2023/08/02 v39.8 (Release Donald Ervin Knuth) Bidirectional types
+etting in plain TeX and LaTeX
 
 ****************************************************
 * 
@@ -741,11 +875,14 @@ Package: biditools 2022/06/15 v2.3 Programming tools for bidi package
 \bidi@stack@length=\count378
 \bidi@empty@stack=\toks52
 \bidi@looprepeat@depth=\count379
-) (/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty
+)
+(/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
- (/usr/share/texmf-dist/tex/latex/zref/zref-base.sty
+
+(/usr/share/texmf-dist/tex/latex/zref/zref-base.sty
 Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
- (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 Package zref Info: New property list: main on input line 767.
@@ -754,9 +891,12 @@ Package zref Info: New property: page on input line 769.
 )
 \c@abspage=\count380
 Package zref Info: New property: abspage on input line 67.
-) (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks53
 \XKV@tempa@toks=\toks54
 )
@@ -764,53 +904,93 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \@bidi@copyins@=\insert252
- (/usr/share/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
-File: latex-xetex-bidi.def 2022/07/04 v1.4.9 bidi adaptations for `latex.ltx' for XeTeX engine
+
+(/usr/share/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2022/07/04 v1.4.9 bidi adaptations for `latex.ltx' f
+or XeTeX engine
 \bidi@n@everypar=\toks55
 \bidi@column@check@number=\count382
- (/usr/share/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
-File: footnote-xetex-bidi.def 2023/01/18 v1.2 bidi footnote macros for XeTeX engine
+
+(/usr/share/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2023/01/18 v1.2 bidi footnote macros for XeTeX en
+gine
 \c@footdir@label=\count383
 \footdir@toks=\toks56
-) (/usr/share/texmf-dist/tex/xelatex/bidi/book-xetex-bidi.def
-File: book-xetex-bidi.def 2017/06/09 v1.0 bidi adaptations for standard book class for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/amsmath-xetex-bidi.def
-File: amsmath-xetex-bidi.def 2020/05/16 v1.2 bidi adaptations for amsmath package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/amstext-xetex-bidi.def
-File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/amsthm-xetex-bidi.def
-File: amsthm-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for amsthm package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/color-xetex-bidi.def
-File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/book-xetex-bidi.def
+File: book-xetex-bidi.def 2017/06/09 v1.0 bidi adaptations for standard book cl
+ass for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/amsmath-xetex-bidi.def
+File: amsmath-xetex-bidi.def 2020/05/16 v1.2 bidi adaptations for amsmath packa
+ge for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/amstext-xetex-bidi.def
+File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext packa
+ge for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/amsthm-xetex-bidi.def
+File: amsthm-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for amsthm package
+ for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/color-xetex-bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
 LaTeX Info: Redefining \color on input line 49.
-) (/usr/share/texmf-dist/tex/xelatex/bidi/xcolor-xetex-bidi.def
-File: xcolor-xetex-bidi.def 2022/06/13 v0.3 bidi adaptations for xcolor package for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/xcolor-xetex-bidi.def
+File: xcolor-xetex-bidi.def 2022/06/13 v0.3 bidi adaptations for xcolor package
+ for XeTeX engine
 LaTeX Info: Redefining \color on input line 48.
 LaTeX Info: Redefining \bidicolor on input line 91.
-) (/usr/share/texmf-dist/tex/xelatex/bidi/graphicx-xetex-bidi.def
-File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/geometry-xetex-bidi.def
-File: geometry-xetex-bidi.def 2017/01/14 v0.2 bidi adaptations for geometry package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/hyperref-xetex-bidi.def
-File: hyperref-xetex-bidi.def 2018/11/11 v1.1 bidi adaptations for hyperref package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/fancyhdr-xetex-bidi.def
-File: fancyhdr-xetex-bidi.def 2018/02/15 v0.7 bidi adaptations for fancyhdr package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/listings-xetex-bidi.def
-File: listings-xetex-bidi.def 2018/09/15 v1.5 bidi adaptations for listings package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/pgfcorescopes.code-xetex-bidi.def
-File: pgfcorescopes.code-xetex-bidi.def 2015/11/14 v0.1 bidi adaptations for pgf package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/titletoc-xetex-bidi.def
-File: titletoc-xetex-bidi.def 2013/04/10 v0.2 bidi adaptations for titletoc package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/multicol-xetex-bidi.def
-File: multicol-xetex-bidi.def 2022/07/10 v1.4 bidi adaptations for multicol package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/pgfsys.code-xetex-bidi.def
-File: pgfsys.code-xetex-bidi.def 2022/06/01 v0.1 bidi adaptations for pgfsys.code.tex file for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/tocbibind-xetex-bidi.def
-File: tocbibind-xetex-bidi.def 2017/06/09 v0.4 bidi adaptations for tocbibind package for XeTeX engine
-) (/usr/share/texmf-dist/tex/xelatex/bidi/tocloft-xetex-bidi.def
-File: tocloft-xetex-bidi.def 2023/08/02 v0.3 bidi adaptations for tocloft package for XeTeX engine
-)) (/usr/share/texmf-dist/tex/xelatex/bidi/loadingorder-xetex-bidi.def
-File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the last package loaded
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/geometry-xetex-bidi.def
+File: geometry-xetex-bidi.def 2017/01/14 v0.2 bidi adaptations for geometry pac
+kage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/hyperref-xetex-bidi.def
+File: hyperref-xetex-bidi.def 2018/11/11 v1.1 bidi adaptations for hyperref pac
+kage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/fancyhdr-xetex-bidi.def
+File: fancyhdr-xetex-bidi.def 2018/02/15 v0.7 bidi adaptations for fancyhdr pac
+kage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/listings-xetex-bidi.def
+File: listings-xetex-bidi.def 2018/09/15 v1.5 bidi adaptations for listings pac
+kage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/pgfcorescopes.code-xetex-bidi.def
+File: pgfcorescopes.code-xetex-bidi.def 2015/11/14 v0.1 bidi adaptations for pg
+f package for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/titletoc-xetex-bidi.def
+File: titletoc-xetex-bidi.def 2013/04/10 v0.2 bidi adaptations for titletoc pac
+kage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/multicol-xetex-bidi.def
+File: multicol-xetex-bidi.def 2022/07/10 v1.4 bidi adaptations for multicol pac
+kage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/pgfsys.code-xetex-bidi.def
+File: pgfsys.code-xetex-bidi.def 2022/06/01 v0.1 bidi adaptations for pgfsys.co
+de.tex file for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/tocbibind-xetex-bidi.def
+File: tocbibind-xetex-bidi.def 2017/06/09 v0.4 bidi adaptations for tocbibind p
+ackage for XeTeX engine
+)
+(/usr/share/texmf-dist/tex/xelatex/bidi/tocloft-xetex-bidi.def
+File: tocloft-xetex-bidi.def 2023/08/02 v0.3 bidi adaptations for tocloft packa
+ge for XeTeX engine
+))
+(/usr/share/texmf-dist/tex/xelatex/bidi/loadingorder-xetex-bidi.def
+File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
+ last package loaded
 )
 \bidi@digits=\count384
 \bidi@digits@charclass=\XeTeXcharclass1
@@ -845,54 +1025,81 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the 
 \xepersian@ilg=\dimen277
 \xepersian@strutilg=\dimen278
 (/usr/share/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersian.def
-File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is the last package loaded
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/footnote-xepersian.def
-File: footnote-xepersian.def 2017/08/09 v0.6 footnote macros for xepersian package
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/listings-xepersian.def
-File: listings-xepersian.def 2014/07/17 v0.3 bilingual captions for listings package
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/enumitem-xepersian.def
+File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
+the last package loaded
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/footnote-xepersian.def
+File: footnote-xepersian.def 2017/08/09 v0.6 footnote macros for xepersian pack
+age
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/listings-xepersian.def
+File: listings-xepersian.def 2014/07/17 v0.3 bilingual captions for listings pa
+ckage
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/enumitem-xepersian.def
 File: enumitem-xepersian.def 2017/09/06 v0.1 adaptations for enumitem package
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.def
-File: hyperref-xepersian.def 2022/10/30 v0.8 xepersian adaptations for hyperref package
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/tocloft-xepersian.def
-File: tocloft-xepersian.def 2010/07/25 v0.1 bilingual captions for tocloft package
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/url-xepersian.def
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.def
+File: hyperref-xepersian.def 2022/10/30 v0.8 xepersian adaptations for hyperref
+ package
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/tocloft-xepersian.def
+File: tocloft-xepersian.def 2010/07/25 v0.1 bilingual captions for tocloft pack
+age
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/url-xepersian.def
 File: url-xepersian.def 2022/02/18 v0.1 adaptations for url package
-) (/usr/share/texmf-dist/tex/xelatex/xepersian/book-xepersian.def
+)
+(/usr/share/texmf-dist/tex/xelatex/xepersian/book-xepersian.def
 File: book-xepersian.def 2010/07/25 v0.2 adaptations for standard book class
 )
 
 Package fontspec Info: Font family 'lmroman10-regular(0)' created for font
 (fontspec)             'lmroman10-regular' with options
-(fontspec)             [Ligatures=TeX,Path,BoldFont={lmroman10-bold},BoldItalicFont={lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps10-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromanslant10-bold}].
+(fontspec)             [Ligatures=TeX,Path,BoldFont={lmroman10-bold},BoldItalic
+Font={lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmroma
+ncaps10-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromans
+lant10-bold}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=dflt;map
+ping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=dflt;mappin
+g=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=dflt;mapp
+ing=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
 (fontspec)             - 'slanted' (m/sl) with NFSS spec.:
-(fontspec)             <->"[lmromanslant10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromanslant10-regular]/OT:script=latn;language=dfl
+t;mapping=tex-text;"
 (fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
-(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=dflt;
+mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
 (fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
-(fontspec)             <->"[lmromanslant10-bold]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromanslant10-bold]/OT:script=latn;language=dflt;m
+apping=tex-text;"
 (fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
-(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
 
 )
 
@@ -914,19 +1121,23 @@ Package fontspec Info: B Nazanin/BI scale = 1.2.
 
 Package fontspec Info: Font family 'BNazanin(0)' created for font 'B Nazanin'
 (fontspec)             with options
-(fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.2].
+(fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.2
+].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"B
-(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex-text;"
+(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex
+-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"B
-(fontspec)             Nazanin/B/OT:language=dflt;script=arab;mapping=persian-tex-text;"
+(fontspec)             Nazanin/B/OT:language=dflt;script=arab;mapping=persian-t
+ex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.2]"B
-(fontspec)             Nazanin/BI/OT:language=dflt;script=arab;mapping=persian-tex-text;"
+(fontspec)             Nazanin/BI/OT:language=dflt;script=arab;mapping=persian-
+tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
@@ -934,7 +1145,8 @@ LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 
 Package fontspec Info: Font family 'MononokiNerdFontMono(0)' created for font
 (fontspec)             'Mononoki Nerd Font Mono' with options
-(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace].
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -974,7 +1186,7 @@ Package fontspec Info: Font family 'MononokiNerdFontMono(0)' created for font
 
 
 
-./commands.tex:71: Package fontspec Error: The font "IranNastaliq" cannot be found.
+! Package fontspec Error: The font "IranNastaliq" cannot be found.
 
 For immediate help type H <return>.
  ...                                              
@@ -1004,7 +1216,7 @@ Package fontspec Info: Could not resolve font "IranNastaliq/I" (it probably
 (fontspec)             doesn't exist).
 
 
-./commands.tex:71: Package fontspec Error: The font "IranNastaliq" cannot be found.
+! Package fontspec Error: The font "IranNastaliq" cannot be found.
 
 For immediate help type H <return>.
  ...                                              
@@ -1019,7 +1231,7 @@ A font might not be found for many reasons.
 
 
 
-./commands.tex:71: Package fontspec Error: The font "IranNastaliq" cannot be found.
+! Package fontspec Error: The font "IranNastaliq" cannot be found.
 
 For immediate help type H <return>.
  ...                                              
@@ -1043,6 +1255,7 @@ Package fontspec Info: IranNastaliq scale = 2.
 Package fontspec Info: Font family 'IranNastaliq(0)' created for font
 (fontspec)             'IranNastaliq' with options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=2].
+
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -1072,18 +1285,22 @@ Package fontspec Info: B Nazanin/BI scale = 3.
 Package fontspec Info: Font family 'BNazanin(1)' created for font 'B Nazanin'
 (fontspec)             with options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=3].
+
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[3]"B
-(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex-text;"
+(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex
+-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[3]"B
-(fontspec)             Nazanin/B/OT:language=dflt;script=arab;mapping=persian-tex-text;"
+(fontspec)             Nazanin/B/OT:language=dflt;script=arab;mapping=persian-t
+ex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[3]"B
-(fontspec)             Nazanin/BI/OT:language=dflt;script=arab;mapping=persian-tex-text;"
+(fontspec)             Nazanin/BI/OT:language=dflt;script=arab;mapping=persian-
+tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 \c@definition=\count386
@@ -1096,7 +1313,50 @@ Package amsthm Warning: Unknown theoremstyle `theorem' on input line 118.
 LaTeX Warning: Unused global option(s):
     [oneside,12pt].
 
-(./AUTthesis.aux)
+(./AUTthesis.aux (./chapter1.aux) (./chapter2.aux
+
+LaTeX Warning: Label `fig:cat-bw-rank-1' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-1@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-4' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-4@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-8' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-8@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-32' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-32@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-256' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-256@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-1024' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-1024@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-2048' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat-bw-rank-2048@cref' multiply defined.
+
+) (./chapter3.aux) (./appendix1.aux))
 \openout1 = `AUTthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1108,8 +1368,10 @@ LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 81.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+1.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 81.
@@ -1164,11 +1426,7 @@ Package hyperref Info: Link coloring ON on input line 81.
 \@outlinefile=\write5
 \openout5 = `AUTthesis.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-(./fa_title.tex
+ (./fa_title.tex
 File: fa-logo.png Graphic file (type bmp)
 <fa-logo.png>
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
@@ -1189,18 +1447,47 @@ LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
 (Font)              scaled to size 21.59995pt on input line 29.
  [1
 
-]) (./TOC-TOF-LOT.tex [1]
+]) (./TOC-TOF-LOT.tex
+[1]
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 24.88794pt on input line 7.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
 (Font)              scaled to size 24.88794pt on input line 7.
- (./AUTthesis.toc)
+ (./AUTthesis.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write6
 \openout6 = `AUTthesis.toc'.
 
  [2
 
-] (./AUTthesis.lof)
+] (./AUTthesis.lof
+Missing character: There is no D (U+0044) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no e (U+0065) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no o (U+006F) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no s (U+0073) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no i (U+0069) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no n (U+006E) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+Missing character: There is no g (U+0067) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+)
 \tf@lof=\write7
 \openout7 = `AUTthesis.lof'.
 
@@ -1210,6 +1497,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3
@@ -1224,19 +1512,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4
 
 ]) (./list-of-symbols.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 9.59998pt on input line 13.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
@@ -1256,6 +1537,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5
@@ -1277,6 +1559,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [1
@@ -1287,39 +1570,20 @@ LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 20.73593pt on input line 3.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
 (Font)              scaled to size 20.73593pt on input line 3.
-
-
-LaTeX Warning: Reference `footdir@1' on page 2 undefined on input line 10.
-
-
-LaTeX Warning: Reference `footdir@2' on page 2 undefined on input line 10.
-
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 11.99997pt on input line 10.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 8.39998pt on input line 10.
-Missing character: There is no … (U+2026) in font B Nazanin/OT:language=dflt;script=arab;mapping=persian-tex-text;!
 
-LaTeX Warning: Reference `footdir@3' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Reference `footdir@4' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Reference `footdir@5' on page 2 undefined on input line 29.
-
-
-LaTeX Warning: Reference `footdir@6' on page 2 undefined on input line 29.
-
+Missing character: There is no … (U+2026) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
 )
-
-LaTeX Warning: Reference `footdir@7' on page 2 undefined on input line 92.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
@@ -1332,6 +1596,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3
@@ -1340,35 +1605,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-
-LaTeX Warning: Reference `footdir@8' on page 4 undefined on input line 7.
-
-
-LaTeX Warning: Reference `footdir@9' on page 4 undefined on input line 7.
-
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 17.27994pt on input line 55.
 LaTeX Font Info:    Font shape `TU/BNazanin(0)/b/n' will be
 (Font)              scaled to size 17.27994pt on input line 55.
 
-LaTeX Warning: Reference `footdir@10' on page 4 undefined on input line 68.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-LaTeX Font Info:    Font shape `TU/MononokiNerdFontMono(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/MononokiNerdFontMono(0)/m/it' tried instead on input line 70.
+LaTeX Font Info:    Font shape `TU/MononokiNerdFontMono(0)/m/sl' in size <10> n
+ot available
+(Font)              Font shape `TU/MononokiNerdFontMono(0)/m/it' tried instead 
+on input line 70.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
@@ -1388,16 +1649,11 @@ File: ../image-compression/cat-2048.png Graphic file (type bmp)
 <../image-compression/cat-2048.png>
 
 
-LaTeX Warning: Citation `4426357' on page 6 undefined on input line 208.
-
-
-LaTeX Warning: Citation `imcprichdavad' on page 6 undefined on input line 209.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
@@ -1406,6 +1662,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
@@ -1414,6 +1671,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
@@ -1422,6 +1680,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
@@ -1430,6 +1689,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
@@ -1438,6 +1698,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
@@ -1446,6 +1707,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
@@ -1454,6 +1716,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
@@ -1462,6 +1725,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
@@ -1470,6 +1734,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
@@ -1478,6 +1743,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
@@ -1486,10 +1752,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17] (../output/image-comp-mse.pgf) (../output/image-comp-mse-log.pgf
-../output/image-comp-mse-log.pgf:104: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.104 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1500,7 +1767,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:142: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.142 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1511,7 +1778,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:180: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.180 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1522,7 +1789,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:218: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.218 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1533,7 +1800,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:794: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.794 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1544,7 +1811,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:832: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.832 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1555,7 +1822,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:870: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.870 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1566,7 +1833,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:908: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.908 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1577,7 +1844,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:946: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.946 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1588,7 +1855,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:984: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.984 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1599,7 +1866,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:1022: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1022 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -1610,7 +1877,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:1060: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1060 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -1621,7 +1888,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-mse-log.pgf:1098: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1098 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -1633,7 +1900,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) (../output/image-comp-psnr.pgf
-../output/image-comp-psnr.pgf:104: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.104 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1644,7 +1911,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:142: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.142 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1655,7 +1922,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:180: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.180 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1666,7 +1933,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:218: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.218 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1677,7 +1944,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:256: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.256 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1688,7 +1955,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:300: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.300 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1699,7 +1966,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:338: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.338 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1710,7 +1977,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:376: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.376 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1721,7 +1988,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:414: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.414 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1732,7 +1999,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:452: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.452 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1743,7 +2010,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:490: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.490 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1754,7 +2021,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:528: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.528 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1765,7 +2032,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:566: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.566 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1776,7 +2043,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr.pgf:604: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.604 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1788,7 +2055,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) (../output/image-comp-psnr-log.pgf
-../output/image-comp-psnr-log.pgf:104: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.104 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1799,7 +2066,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:142: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.142 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1810,7 +2077,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:180: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.180 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1821,7 +2088,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:218: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.218 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1832,7 +2099,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:794: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.794 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1843,7 +2110,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:832: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.832 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1854,7 +2121,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:870: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.870 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1865,7 +2132,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:908: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.908 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1876,7 +2143,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:946: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.946 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1887,7 +2154,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:984: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.984 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1898,7 +2165,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:1022: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1022 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -1909,7 +2176,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:1060: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1060 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -1920,7 +2187,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-psnr-log.pgf:1098: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1098 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -1937,6 +2204,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18]
@@ -1945,6 +2213,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
@@ -1953,6 +2222,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20]
@@ -1961,6 +2231,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
@@ -1969,6 +2240,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
@@ -1987,7 +2259,7 @@ File: ../image-compression-color/cat-1024.png Graphic file (type bmp)
 File: ../image-compression-color/cat-2048.png Graphic file (type bmp)
 <../image-compression-color/cat-2048.png>
  (../output/image-comp-col-mse.pgf) (../output/image-comp-col-mse-log.pgf
-../output/image-comp-col-mse-log.pgf:104: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.104 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -1998,7 +2270,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:142: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.142 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2009,7 +2281,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:180: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.180 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2020,7 +2292,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:218: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.218 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2031,7 +2303,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:794: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.794 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2042,7 +2314,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:832: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.832 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2053,7 +2325,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:870: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.870 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2064,7 +2336,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:908: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.908 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2075,7 +2347,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:946: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.946 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2086,7 +2358,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:984: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.984 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2097,7 +2369,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:1022: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1022 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -2108,7 +2380,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:1060: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1060 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -2119,7 +2391,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-mse-log.pgf:1098: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1098 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -2131,7 +2403,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) (../output/image-comp-col-psnr.pgf
-../output/image-comp-col-psnr.pgf:104: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.104 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2142,7 +2414,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:142: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.142 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2153,7 +2425,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:180: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.180 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2164,7 +2436,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:218: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.218 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2175,7 +2447,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:256: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.256 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2186,7 +2458,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:300: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.300 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2197,7 +2469,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:338: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.338 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2208,7 +2480,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:376: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.376 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2219,7 +2491,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:414: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.414 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2230,7 +2502,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:452: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.452 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2241,7 +2513,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:490: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.490 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2252,7 +2524,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:528: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.528 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2263,7 +2535,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:566: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.566 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2274,7 +2546,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr.pgf:604: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.604 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2286,7 +2558,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) (../output/image-comp-col-psnr-log.pgf
-../output/image-comp-col-psnr-log.pgf:104: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.104 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2297,7 +2569,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:142: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.142 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2308,7 +2580,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:180: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.180 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2319,7 +2591,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:218: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.218 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2330,7 +2602,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:794: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.794 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2341,7 +2613,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:832: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.832 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2352,7 +2624,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:870: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.870 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2363,7 +2635,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:908: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.908 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2374,7 +2646,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:946: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.946 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2385,7 +2657,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:984: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.984 ...\catcode`\%=\active\def%{\%}$\mathdefault
@@ -2396,7 +2668,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:1022: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1022 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -2407,7 +2679,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:1060: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1060 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -2418,7 +2690,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-../output/image-comp-col-psnr-log.pgf:1098: Undefined control sequence.
+! Undefined control sequence.
 <recently read> \mathdefault 
                              
 l.1098 ...catcode`\%=\active\def%{\%}$\mathdefault
@@ -2435,6 +2707,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
@@ -2443,6 +2716,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24]
@@ -2451,6 +2725,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
@@ -2459,6 +2734,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26]
@@ -2467,6 +2743,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
@@ -2475,6 +2752,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
@@ -2483,6 +2761,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
@@ -2491,6 +2770,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
@@ -2499,6 +2779,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
@@ -2507,6 +2788,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
@@ -2515,6 +2797,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
@@ -2523,6 +2806,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
@@ -2535,10 +2819,64 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35
 
+
+
+
+]
+Overfull \hbox (22.10039pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][][][][][][][] [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+File: ../output/denoise.jpg Graphic file (type bmp)
+<../output/denoise.jpg>
+
+Missing character: There is no a (U+0061) in font B Nazanin/OT:language=dflt;sc
+ript=arab;mapping=persian-tex-text;!
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39] (./AUTthesis.bbl
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
+(Font)              scaled to size 29.85593pt on input line 4.
+ [40
 
 
 
@@ -2548,49 +2886,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36] (./AUTthesis.bbl
-LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
-(Font)              scaled to size 29.85593pt on input line 4.
-) [37
-
-
-
-]
+[41]
 \openout2 = `appendix1.aux'.
 
- (./appendix1.tex) [38
+ (./appendix1.tex) [42
 
 
-] (./AUTthesis.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux) (./appendix1.aux))
+] (./AUTthesis.aux (./chapter1.aux) (./chapter2.aux)
+(./chapter3.aux) (./appendix1.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `AUTthesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `AUTthesis.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  AC648CA041971894E147B0E7EE85ED6D;2244.
+Package rerunfilecheck Info: File `AUTthesis.out' has not changed.
+(rerunfilecheck)             Checksum: 9728D8D373383C550D457DA77C66BA2B;2695.
  ) 
 Here is how much of TeX's memory you used:
- 28305 strings out of 476763
- 561310 string characters out of 5803126
- 1999839 words of memory out of 5000000
- 49667 multiletter control sequences out of 15000+600000
- 565914 words of font info for 126 fonts, out of 8000000 for 9000
+ 28399 strings out of 476763
+ 562517 string characters out of 5803126
+ 2009839 words of memory out of 5000000
+ 49751 multiletter control sequences out of 15000+600000
+ 565922 words of font info for 127 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,13n,110p,2472b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,110p,2425b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on AUTthesis.xdv (44 pages, 523160 bytes).
+Output written on AUTthesis.pdf (48 pages).

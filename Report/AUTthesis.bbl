@@ -5,6 +5,16 @@
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{7067415}
+Guo, Qiang, Zhang, Caiming, Zhang, Yunfeng, and Liu, Hui.
+\newblock An efficient svd-based method for image denoising.
+\newblock {\em IEEE Transactions on Circuits and Systems for Video Technology},
+  26(5):868--880, 2016.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{4426357}
 Prasantha, H.S., Shashidhara, H.L., and Balasubramanya~Murthy, K.N.
 \newblock Image compression using svd.
@@ -19,6 +29,37 @@ Prasantha, H.S., Shashidhara, H.L., and Balasubramanya~Murthy, K.N.
 Richards, David and Abrahamsen, Adam.
 \newblock Image compression using singular value decomposition.
 \newblock 01 2001.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{TAI20161}
+Tai, Ying, Yang, Jian, Luo, Lei, Zhang, Fanlong, and Qian, Jianjun.
+\newblock Learning discriminative singular value decomposition representation
+  for face recognition.
+\newblock {\em Pattern Recognition}, 50:1--16, 2016.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{10.1007/978-3-030-32456-8_43}
+Yan, Chunman, Zhang, Di, Hao, Youfei, and Chen, Jiahui.
+\newblock An improved k-svd algorithm and its application for image denoising.
+\newblock In Liu, Yong, Wang, Lipo, Zhao, Liang, and Yu, Zhengtao,  editors,
+  {\em Advances in Natural Computation, Fuzzy Systems and Knowledge Discovery},
+  pages 399--405, Cham, 2020. Springer International Publishing.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{5539989}
+Zhang, Qiang and Li, Baoxin.
+\newblock Discriminative k-svd for dictionary learning in face recognition.
+\newblock In {\em 2010 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition}, pages 2691--2698, 2010.
 
 \end{LTRbibitems}
 

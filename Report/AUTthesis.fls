@@ -511,6 +511,9 @@ OUTPUT chapter3.aux
 INPUT ./chapter3.tex
 INPUT ./chapter3.tex
 INPUT chapter3.tex
+INPUT ../output/denoise.jpg
+INPUT ../output/denoise.jpg
+INPUT ../output/denoise.jpg
 INPUT ./AUTthesis.bbl
 INPUT ./AUTthesis.bbl
 INPUT AUTthesis.bbl

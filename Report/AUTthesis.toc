@@ -14,6 +14,9 @@
 \contentsline {subsection}{\numberline {2-2-2}بررسی خطا روش}{6}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2-2-3}پیاده سازی با تصاویر رنگی}{18}{subsection.2.2.3}%
 \contentsline {chapter}{\numberline {3}نتیجه گیری}{35}{chapter.3}%
-\contentsline {chapter}{کتاب‌نامه}{37}{appendix*.3}%
-\contentsline {chapter}{پیوست}{38}{appendix*.4}%
+\contentsline {section}{\numberline {3-1}استفاده‌های دیگر}{36}{section.3.1}%
+\contentsline {subsection}{\numberline {3-1-1}حذف نویز}{36}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3-1-2}تشخیص چهره}{38}{subsection.3.1.2}%
+\contentsline {chapter}{کتاب‌نامه}{40}{appendix*.3}%
+\contentsline {chapter}{پیوست}{42}{appendix*.4}%
 \contentsfinish 
